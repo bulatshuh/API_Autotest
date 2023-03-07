@@ -1,5 +1,5 @@
 import requests
-from .logger import Logger
+from my_lib.logger import Logger
 from environment import ENV_OBJECT
 
 

@@ -1,5 +1,5 @@
-/.pytest_cache
+.pytest_cache
 /api_test_venv
-/logs
+logs
 .idea/
 __pycache__/

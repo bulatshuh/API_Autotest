@@ -1,10 +1,9 @@
 import pytest
-from lib.base_case import BaseCase
-from lib.assertions import Assertions
-from lib.my_requests import MyRequests
+from my_lib.base_case import BaseCase
+from my_lib.assertions import Assertions
+from my_lib.my_requests import MyRequests
 
 
-@pytest.mark.new
 class TestUserAuthorize(BaseCase):
     exclude_params = [
         ('no_cookie'),
